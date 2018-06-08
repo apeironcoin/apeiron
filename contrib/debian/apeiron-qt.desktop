@@ -1,0 +1,12 @@
+[Desktop Entry]
+Encoding=UTF-8
+Name=ARO
+Comment=ARO P2P Cryptocurrency
+Comment[fr]=ARO, monnaie virtuelle cryptographique pair à pair
+Comment[tr]=ARO, eşten eşe kriptografik sanal para birimi
+Exec=apeiron-qt %u
+Terminal=false
+Type=Application
+Icon=apeiron128
+MimeType=x-scheme-handler/apeiron;
+Categories=Office;Finance;
