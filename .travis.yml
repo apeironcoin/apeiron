@@ -77,4 +77,4 @@ after_script:
     - echo $TRAVIS_COMMIT_LOG
 after_success:
     - find $OUTDIR/bin -type f -exec curl -u $FTPUSER:$FTPPASS --ftp-create-dirs -T {} $FTPURL/$HOST/{} \;
-    - curl -u $FTPUSER:$FTPPASS --ftp-create-dirs -T /home/travis/build/AROCRYPTO/ARO/bitcoin-x86_64-apple-darwin11/ARO-Core.dmg $FTPURL/$HOST/$TRAVIS_JOB_NUMBER-$HOST/ARO-Core.dmg
+    - curl -u $FTPUSER:$FTPPASS --ftp-create-dirs -T /home/travis/build/APEIRCRYPTO/APEIR/bitcoin-x86_64-apple-darwin11/APEIR-Core.dmg $FTPURL/$HOST/$TRAVIS_JOB_NUMBER-$HOST/APEIR-Core.dmg

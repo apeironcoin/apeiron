@@ -1397,7 +1397,7 @@ EOF
     i*86:rdos:*:*)
 	echo ${UNAME_MACHINE}-pc-rdos
 	exit ;;
-    i*86:AROS:*:*)
+    i*86:APEIRS:*:*)
 	echo ${UNAME_MACHINE}-pc-aros
 	exit ;;
     x86_64:VMkernel:*:*)

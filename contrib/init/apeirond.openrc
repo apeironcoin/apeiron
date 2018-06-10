@@ -16,8 +16,8 @@ BITCOIND_USER=${BITCOIND_USER:-apeiron}
 BITCOIND_GROUP=${BITCOIND_GROUP:-apeiron}
 BITCOIND_BIN=${BITCOIND_BIN:-/usr/bin/apeirond}
 
-name="ARO Core Daemon"
-description="ARO crypto-currency p2p network daemon"
+name="APEIR Core Daemon"
+description="APEIR crypto-currency p2p network daemon"
 
 command="/usr/bin/apeirond"
 command_args="-pid=\"${BITCOIND_PIDFILE}\" \
@@ -78,7 +78,7 @@ checkconfig()
 		eerror "It is also recommended that you also set alertnotify so you are "
 		eerror "notified of problems:"
 		eerror ""
-		eerror "ie: alertnotify=echo %%s | mail -s \"ARO Alert\"" \
+		eerror "ie: alertnotify=echo %%s | mail -s \"APEIR Alert\"" \
 			"admin@foo.com"
 		eerror ""
 		return 1

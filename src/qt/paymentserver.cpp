@@ -1,7 +1,7 @@
 // Copyright (c) 2011-2014 The Bitcoin developers
-// Copyright (c) 2014-2015 The Aro developers
+// Copyright (c) 2014-2015 The Apeiron developers
 // Copyright (c) 2015-2017 The PIVX developers 
-// Copyright (c) 2015-2017 The ARO developers
+// Copyright (c) 2015-2017 The APEIR developers
 // Distributed under the MIT software license, see the accompanying
 // file COPYING or http://www.opensource.org/licenses/mit-license.php.
 
@@ -87,7 +87,7 @@ namespace // Anon namespace
 //
 static QString ipcServerName()
 {
-    QString name("AROQt");
+    QString name("APEIRQt");
 
     // Append a simple hash of the datadir
     // Note that GetDataDir(true) returns a different path
@@ -410,7 +410,7 @@ void PaymentServer::handleURIOrFile(const QString& s)
                     emit receivedPaymentRequest(recipient);
             } else
                 emit message(tr("URI handling"),
-                    tr("URI cannot be parsed! This can be caused by an invalid ARO address or malformed URI parameters."),
+                    tr("URI cannot be parsed! This can be caused by an invalid APEIR address or malformed URI parameters."),
                     CClientUIInterface::ICON_WARNING);
 
             return;

@@ -80,12 +80,12 @@
     </message>
     <message>
         <location line="+7"/>
-        <source>These are your ARO addresses for sending payments. Always check the amount and the receiving address before sending coins.</source>
+        <source>These are your APEIR addresses for sending payments. Always check the amount and the receiving address before sending coins.</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
         <location line="+4"/>
-        <source>These are your ARO addresses for receiving payments. It is recommended to use a new receiving address for each transaction.</source>
+        <source>These are your APEIR addresses for receiving payments. It is recommended to use a new receiving address for each transaction.</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
@@ -221,7 +221,7 @@
     </message>
     <message>
         <location line="+12"/>
-        <source>ARO will close now to finish the encryption process. Remember that encrypting your wallet cannot fully protect your AROs from being stolen by malware infecting your computer.</source>
+        <source>APEIR will close now to finish the encryption process. Remember that encrypting your wallet cannot fully protect your APEIRs from being stolen by malware infecting your computer.</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
@@ -231,7 +231,7 @@
     </message>
     <message>
         <location line="+0"/>
-        <source>Warning: If you encrypt your wallet and lose your passphrase, you will &lt;b&gt;LOSE ALL OF YOUR ARO&lt;/b&gt;!</source>
+        <source>Warning: If you encrypt your wallet and lose your passphrase, you will &lt;b&gt;LOSE ALL OF YOUR APEIR&lt;/b&gt;!</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
@@ -307,7 +307,7 @@
     </message>
     <message>
         <location line="+6"/>
-        <source>Enter a ARO Address that you would like to encrypt using BIP 38. Enter a passphrase in the middle box. Press encrypt to compute the encrypted private key.</source>
+        <source>Enter a APEIR Address that you would like to encrypt using BIP 38. Enter a passphrase in the middle box. Press encrypt to compute the encrypted private key.</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
@@ -318,7 +318,7 @@
     </message>
     <message>
         <location line="-355"/>
-        <source>The ARO address to sign the message with</source>
+        <source>The APEIR address to sign the message with</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
@@ -360,7 +360,7 @@
     </message>
     <message>
         <location line="+21"/>
-        <source>Sign the message to prove you own this ARO address</source>
+        <source>Sign the message to prove you own this APEIR address</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
@@ -391,12 +391,12 @@
     </message>
     <message>
         <location line="+25"/>
-        <source>The ARO address the message was signed with</source>
+        <source>The APEIR address the message was signed with</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
         <location line="+29"/>
-        <source>Verify the message to ensure it was signed with the specified ARO address</source>
+        <source>Verify the message to ensure it was signed with the specified APEIR address</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
@@ -776,12 +776,12 @@
     <message>
         <location line="-413"/>
         <location line="+853"/>
-        <source>ARO Core</source>
+        <source>APEIR Core</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
         <location line="-665"/>
-        <source>Send coins to a ARO address</source>
+        <source>Send coins to a APEIR address</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
@@ -801,27 +801,27 @@
     </message>
     <message>
         <location line="+29"/>
-        <source>&amp;About ARO Core</source>
+        <source>&amp;About APEIR Core</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
         <location line="+1"/>
-        <source>Show information about ARO Core</source>
+        <source>Show information about APEIR Core</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
         <location line="+10"/>
-        <source>Modify configuration options for ARO</source>
+        <source>Modify configuration options for APEIR</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
         <location line="+16"/>
-        <source>Sign messages with your ARO addresses to prove you own them</source>
+        <source>Sign messages with your APEIR addresses to prove you own them</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
         <location line="+2"/>
-        <source>Verify messages to ensure they were signed with specified ARO addresses</source>
+        <source>Verify messages to ensure they were signed with specified APEIR addresses</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
@@ -846,7 +846,7 @@
     </message>
     <message>
         <location line="+24"/>
-        <source>Open a ARO: URI or payment request</source>
+        <source>Open a APEIR: URI or payment request</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
@@ -871,7 +871,7 @@
     </message>
     <message>
         <location line="+4"/>
-        <source>Show the ARO Core help message to get a list with possible ARO command-line options</source>
+        <source>Show the APEIR Core help message to get a list with possible APEIR command-line options</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
@@ -881,12 +881,12 @@
     </message>
     <message>
         <location line="+147"/>
-        <source>ARO Core client</source>
+        <source>APEIR Core client</source>
         <translation type="unfinished"></translation>
     </message>
     <message numerus="yes">
         <location line="+182"/>
-        <source>%n active connection(s) to ARO network</source>
+        <source>%n active connection(s) to APEIR network</source>
         <translation type="unfinished">
             <numerusform></numerusform>
             <numerusform></numerusform>
@@ -1456,7 +1456,7 @@ Address: %4
     </message>
     <message>
         <location line="+71"/>
-        <source>The entered address &quot;%1&quot; is not a valid ARO address.</source>
+        <source>The entered address &quot;%1&quot; is not a valid APEIR address.</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
@@ -1512,7 +1512,7 @@ Address: %4
     </message>
     <message>
         <location line="+0"/>
-        <source>ARO Core</source>
+        <source>APEIR Core</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
@@ -1523,7 +1523,7 @@ Address: %4
     </message>
     <message>
         <location line="+5"/>
-        <source>About ARO Core</source>
+        <source>About APEIR Core</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
@@ -1581,17 +1581,17 @@ Address: %4
     </message>
     <message>
         <location line="+9"/>
-        <source>Welcome to ARO Core.</source>
+        <source>Welcome to APEIR Core.</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
         <location line="+26"/>
-        <source>As this is the first time the program is launched, you can choose where ARO Core will store its data.</source>
+        <source>As this is the first time the program is launched, you can choose where APEIR Core will store its data.</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
         <location line="+10"/>
-        <source>ARO Core will download and store a copy of the ARO block chain. At least %1GB of data will be stored in this directory, and it will grow over time. The wallet will also be stored in this directory.</source>
+        <source>APEIR Core will download and store a copy of the APEIR block chain. At least %1GB of data will be stored in this directory, and it will grow over time. The wallet will also be stored in this directory.</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
@@ -1606,7 +1606,7 @@ Address: %4
     </message>
     <message>
         <location filename="../intro.cpp" line="+82"/>
-        <source>ARO Core</source>
+        <source>APEIR Core</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
@@ -1809,8 +1809,8 @@ Address: %4
     </message>
     <message>
         <location line="+16"/>
-        <source>MultiSend allows you to automatically send up to 100% of your stake or masternode reward to a list of other ARO addresses after it matures.
-To Add: enter percentage to give and ARO address to add to the MultiSend vector.
+        <source>MultiSend allows you to automatically send up to 100% of your stake or masternode reward to a list of other APEIR addresses after it matures.
+To Add: enter percentage to give and APEIR address to add to the MultiSend vector.
 To Delete: Enter address to delete and press delete.
 MultiSend will not be activated unless you have clicked Activate</source>
         <translation type="unfinished"></translation>
@@ -1975,12 +1975,12 @@ Please check the address and try again.</source>
     </message>
     <message>
         <location line="+13"/>
-        <source>Use 2 separate masternodes to mix funds up to 10000 ARO</source>
+        <source>Use 2 separate masternodes to mix funds up to 10000 APEIR</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
         <location line="+13"/>
-        <source>Use 8 separate masternodes to mix funds up to 10000 ARO</source>
+        <source>Use 8 separate masternodes to mix funds up to 10000 APEIR</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
@@ -1990,12 +1990,12 @@ Please check the address and try again.</source>
     </message>
     <message>
         <location line="+13"/>
-        <source>This option is the quickest and will cost about ~0.025 ARO to anonymize 10000 ARO</source>
+        <source>This option is the quickest and will cost about ~0.025 APEIR to anonymize 10000 APEIR</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
         <location line="+13"/>
-        <source>This option is moderately fast and will cost about 0.05 ARO to anonymize 10000 ARO</source>
+        <source>This option is moderately fast and will cost about 0.05 APEIR to anonymize 10000 APEIR</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
@@ -2005,7 +2005,7 @@ Please check the address and try again.</source>
     </message>
     <message>
         <location line="+13"/>
-        <source>0.1 ARO per 10000 ARO you anonymize.</source>
+        <source>0.1 APEIR per 10000 APEIR you anonymize.</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
@@ -2017,17 +2017,17 @@ Please check the address and try again.</source>
     </message>
     <message>
         <location line="-29"/>
-        <source>-------- was successfully set to basic (%1 and 2 rounds). You can change this at any time by opening ARO&apos;s configuration screen.</source>
+        <source>-------- was successfully set to basic (%1 and 2 rounds). You can change this at any time by opening APEIR&apos;s configuration screen.</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
         <location line="+15"/>
-        <source>-------- was successfully set to high (%1 and 8 rounds). You can change this at any time by opening ARO&apos;s configuration screen.</source>
+        <source>-------- was successfully set to high (%1 and 8 rounds). You can change this at any time by opening APEIR&apos;s configuration screen.</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
         <location line="+15"/>
-        <source>-------- was successfully set to maximum (%1 and 16 rounds). You can change this at any time by opening ARO&apos;s configuration screen.</source>
+        <source>-------- was successfully set to maximum (%1 and 16 rounds). You can change this at any time by opening APEIR&apos;s configuration screen.</source>
         <translation type="unfinished"></translation>
     </message>
 </context>
@@ -2103,7 +2103,7 @@ Please check the address and try again.</source>
     </message>
     <message>
         <location line="+33"/>
-        <source>Automatically open the ARO client port on the router. This only works when your router supports UPnP and it is enabled.</source>
+        <source>Automatically open the APEIR client port on the router. This only works when your router supports UPnP and it is enabled.</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
@@ -2128,12 +2128,12 @@ Please check the address and try again.</source>
     </message>
     <message>
         <location line="-179"/>
-        <source>Automatically start ARO after logging in to the system.</source>
+        <source>Automatically start APEIR after logging in to the system.</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
         <location line="+3"/>
-        <source>&amp;Start ARO on system login</source>
+        <source>&amp;Start APEIR on system login</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
@@ -2153,7 +2153,7 @@ Please check the address and try again.</source>
     </message>
     <message>
         <location line="+15"/>
-        <source>Amount of ARO to keep --------</source>
+        <source>Amount of APEIR to keep --------</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
@@ -2188,7 +2188,7 @@ Please check the address and try again.</source>
     </message>
     <message>
         <location line="+192"/>
-        <source>The user interface language can be set here. This setting will take effect after restarting ARO.</source>
+        <source>The user interface language can be set here. This setting will take effect after restarting APEIR.</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
@@ -2204,7 +2204,7 @@ https://www.transifex.com/apeiron-project/apeiron-project-translations</source>
     </message>
     <message>
         <location line="+17"/>
-        <source>Connect to the ARO network through a SOCKS5 proxy.</source>
+        <source>Connect to the APEIR network through a SOCKS5 proxy.</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
@@ -2401,7 +2401,7 @@ https://www.transifex.com/apeiron-project/apeiron-project-translations</source>
         <location line="+10"/>
         <location line="+1015"/>
         <location line="+93"/>
-        <source>The displayed information may be out of date. Your wallet automatically synchronizes with the ARO network after a connection is established, but this process has not completed yet.</source>
+        <source>The displayed information may be out of date. Your wallet automatically synchronizes with the APEIR network after a connection is established, but this process has not completed yet.</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
@@ -2456,7 +2456,7 @@ https://www.transifex.com/apeiron-project/apeiron-project-translations</source>
     </message>
     <message>
         <location line="+27"/>
-        <source>0 ARO / 0 Rounds</source>
+        <source>0 APEIR / 0 Rounds</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
@@ -2693,7 +2693,7 @@ https://www.transifex.com/apeiron-project/apeiron-project-translations</source>
     </message>
     <message>
         <location line="+126"/>
-        <source>URI cannot be parsed! This can be caused by an invalid ARO address or malformed URI parameters.</source>
+        <source>URI cannot be parsed! This can be caused by an invalid APEIR address or malformed URI parameters.</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
@@ -2801,7 +2801,7 @@ https://www.transifex.com/apeiron-project/apeiron-project-translations</source>
     </message>
     <message>
         <location filename="../guiutil.cpp" line="+113"/>
-        <source>Enter a ARO address (e.g. %1)</source>
+        <source>Enter a APEIR address (e.g. %1)</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
@@ -2990,7 +2990,7 @@ https://www.transifex.com/apeiron-project/apeiron-project-translations</source>
     </message>
     <message>
         <location line="+149"/>
-        <source>Open the ARO debug log file from the current data directory. This can take a few seconds for large log files.</source>
+        <source>Open the APEIR debug log file from the current data directory. This can take a few seconds for large log files.</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
@@ -3197,7 +3197,7 @@ https://www.transifex.com/apeiron-project/apeiron-project-translations</source>
     </message>
     <message>
         <location line="-35"/>
-        <source>Welcome to the ARO RPC console.</source>
+        <source>Welcome to the APEIR RPC console.</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
@@ -3288,12 +3288,12 @@ https://www.transifex.com/apeiron-project/apeiron-project-translations</source>
     </message>
     <message>
         <location line="-37"/>
-        <source>An optional message to attach to the payment request, which will be displayed when the request is opened. Note: The message will not be sent with the payment over the ARO network.</source>
+        <source>An optional message to attach to the payment request, which will be displayed when the request is opened. Note: The message will not be sent with the payment over the APEIR network.</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
         <location line="+23"/>
-        <source>An optional message to attach to the payment request, which will be displayed when the request is opened.&lt;br&gt;Note: The message will not be sent with the payment over the ARO network.</source>
+        <source>An optional message to attach to the payment request, which will be displayed when the request is opened.&lt;br&gt;Note: The message will not be sent with the payment over the APEIR network.</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
@@ -3587,7 +3587,7 @@ https://www.transifex.com/apeiron-project/apeiron-project-translations</source>
     </message>
     <message>
         <location line="+7"/>
-        <source>0 ARO</source>
+        <source>0 APEIR</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
@@ -3647,18 +3647,18 @@ https://www.transifex.com/apeiron-project/apeiron-project-translations</source>
     </message>
     <message>
         <location line="-165"/>
-        <source>If the custom fee is set to 1000 uAROs and the transaction is only 250 bytes, then &quot;per kilobyte&quot; only pays 250 uAROs in fee,&lt;br /&gt;while &quot;at least&quot; pays 1000 uAROs. For transactions bigger than a kilobyte both pay by kilobyte.</source>
+        <source>If the custom fee is set to 1000 uAPEIRs and the transaction is only 250 bytes, then &quot;per kilobyte&quot; only pays 250 uAPEIRs in fee,&lt;br /&gt;while &quot;at least&quot; pays 1000 uAPEIRs. For transactions bigger than a kilobyte both pay by kilobyte.</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
         <location line="+16"/>
-        <source>If the custom fee is set to 1000 uAROs and the transaction is only 250 bytes, then &quot;per kilobyte&quot; only pays 250 uAROs in fee,&lt;br /&gt;while &quot;total at least&quot; pays 1000 uAROs. For transactions bigger than a kilobyte both pay by kilobyte.</source>
+        <source>If the custom fee is set to 1000 uAPEIRs and the transaction is only 250 bytes, then &quot;per kilobyte&quot; only pays 250 uAPEIRs in fee,&lt;br /&gt;while &quot;total at least&quot; pays 1000 uAPEIRs. For transactions bigger than a kilobyte both pay by kilobyte.</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
         <location line="+33"/>
         <location line="+13"/>
-        <source>Paying only the minimum fee is just fine as long as there is less transaction volume than space in the blocks.&lt;br /&gt;But be aware that this can end up in a never confirming transaction once there is more demand for ARO transactions than the network can process.</source>
+        <source>Paying only the minimum fee is just fine as long as there is less transaction volume than space in the blocks.&lt;br /&gt;But be aware that this can end up in a never confirming transaction once there is more demand for APEIR transactions than the network can process.</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
@@ -3791,7 +3791,7 @@ https://www.transifex.com/apeiron-project/apeiron-project-translations</source>
     </message>
     <message>
         <location line="+651"/>
-        <source>Warning: Invalid ARO address</source>
+        <source>Warning: Invalid APEIR address</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
@@ -3930,7 +3930,7 @@ https://www.transifex.com/apeiron-project/apeiron-project-translations</source>
     </message>
     <message>
         <location line="+18"/>
-        <source>The ARO address to send the payment to</source>
+        <source>The APEIR address to send the payment to</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
@@ -3984,7 +3984,7 @@ https://www.transifex.com/apeiron-project/apeiron-project-translations</source>
     </message>
     <message>
         <location line="+10"/>
-        <source>A message that was attached to the ARO: URI which will be stored with the transaction for your reference. Note: This message will not be sent over the ARO network.</source>
+        <source>A message that was attached to the APEIR: URI which will be stored with the transaction for your reference. Note: This message will not be sent over the APEIR network.</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
@@ -4019,7 +4019,7 @@ https://www.transifex.com/apeiron-project/apeiron-project-translations</source>
     <name>ShutdownWindow</name>
     <message>
         <location filename="../utilitydialog.cpp" line="+43"/>
-        <source>ARO Core is shutting down...</source>
+        <source>APEIR Core is shutting down...</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
@@ -4047,7 +4047,7 @@ https://www.transifex.com/apeiron-project/apeiron-project-translations</source>
     </message>
     <message>
         <location line="+18"/>
-        <source>The ARO address to sign the message with</source>
+        <source>The APEIR address to sign the message with</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
@@ -4089,17 +4089,17 @@ https://www.transifex.com/apeiron-project/apeiron-project-translations</source>
     </message>
     <message>
         <location line="+21"/>
-        <source>Sign the message to prove you own this ARO address</source>
+        <source>Sign the message to prove you own this APEIR address</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
         <location line="+106"/>
-        <source>The ARO address the message was signed with</source>
+        <source>The APEIR address the message was signed with</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
         <location line="+37"/>
-        <source>Verify the message to ensure it was signed with the specified ARO address</source>
+        <source>Verify the message to ensure it was signed with the specified APEIR address</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
@@ -4214,7 +4214,7 @@ https://www.transifex.com/apeiron-project/apeiron-project-translations</source>
     <name>SplashScreen</name>
     <message>
         <location filename="../splashscreen.cpp" line="+37"/>
-        <source>ARO Core</source>
+        <source>APEIR Core</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
@@ -4229,12 +4229,12 @@ https://www.transifex.com/apeiron-project/apeiron-project-translations</source>
     </message>
     <message>
         <location line="+1"/>
-        <source>The Aro and PIVX Core Developers</source>
+        <source>The Apeiron and PIVX Core Developers</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
         <location line="+1"/>
-        <source>The ARO Core developers</source>
+        <source>The APEIR Core developers</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
@@ -4942,7 +4942,7 @@ https://www.transifex.com/apeiron-project/apeiron-project-translations</source>
     <message>
         <location line="-20"/>
         <location line="+9"/>
-        <source>InstantX doesn&apos;t support sending values that high yet. Transactions are currently limited to %1 ARO.</source>
+        <source>InstantX doesn&apos;t support sending values that high yet. Transactions are currently limited to %1 APEIR.</source>
         <translation type="unfinished"></translation>
     </message>
 </context>
@@ -5028,7 +5028,7 @@ https://www.transifex.com/apeiron-project/apeiron-project-translations</source>
     </message>
     <message>
         <location line="+4"/>
-        <source>Cannot obtain a lock on data directory %s. ARO Core is probably already running.</source>
+        <source>Cannot obtain a lock on data directory %s. APEIR Core is probably already running.</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
@@ -5053,7 +5053,7 @@ https://www.transifex.com/apeiron-project/apeiron-project-translations</source>
     </message>
     <message>
         <location line="+3"/>
-        <source>Disable all ARO specific functionality (Masternodes, --------, InstantX, Budgeting) (0-1, default: %u)</source>
+        <source>Disable all APEIR specific functionality (Masternodes, --------, InstantX, Budgeting) (0-1, default: %u)</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
@@ -5103,12 +5103,12 @@ https://www.transifex.com/apeiron-project/apeiron-project-translations</source>
     </message>
     <message>
         <location line="+3"/>
-        <source>Fees (in ARO/Kb) smaller than this are considered zero fee for relaying (default: %s)</source>
+        <source>Fees (in APEIR/Kb) smaller than this are considered zero fee for relaying (default: %s)</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
         <location line="+3"/>
-        <source>Fees (in ARO/Kb) smaller than this are considered zero fee for transaction creation (default: %s)</source>
+        <source>Fees (in APEIR/Kb) smaller than this are considered zero fee for transaction creation (default: %s)</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
@@ -5247,13 +5247,13 @@ rpcpassword=%s
 The username and password MUST NOT be the same.
 If the file does not exist, create it with owner-readable-only file permissions.
 It is also recommended to set alertnotify so you are notified of problems;
-for example: alertnotify=echo %%s | mail -s &quot;ARO Alert&quot; admin@foo.com
+for example: alertnotify=echo %%s | mail -s &quot;APEIR Alert&quot; admin@foo.com
 </source>
         <translation type="unfinished"></translation>
     </message>
     <message>
         <location line="+13"/>
-        <source>Unable to bind to %s on this computer. ARO Core is probably already running.</source>
+        <source>Unable to bind to %s on this computer. APEIR Core is probably already running.</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
@@ -5263,12 +5263,12 @@ for example: alertnotify=echo %%s | mail -s &quot;ARO Alert&quot; admin@foo.com
     </message>
     <message>
         <location line="+2"/>
-        <source>Unable to locate enough -------- non--------- funds for this transaction that are not equal 10000 ARO.</source>
+        <source>Unable to locate enough -------- non--------- funds for this transaction that are not equal 10000 APEIR.</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
         <location line="+3"/>
-        <source>Unable to locate enough funds for this transaction that are not equal 10000 ARO.</source>
+        <source>Unable to locate enough funds for this transaction that are not equal 10000 APEIR.</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
@@ -5288,7 +5288,7 @@ for example: alertnotify=echo %%s | mail -s &quot;ARO Alert&quot; admin@foo.com
     </message>
     <message>
         <location line="+3"/>
-        <source>Warning: Please check that your computer&apos;s date and time are correct! If your clock is wrong ARO Core will not work properly.</source>
+        <source>Warning: Please check that your computer&apos;s date and time are correct! If your clock is wrong APEIR Core will not work properly.</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
@@ -5480,12 +5480,12 @@ for example: alertnotify=echo %%s | mail -s &quot;ARO Alert&quot; admin@foo.com
     </message>
     <message>
         <location line="+1"/>
-        <source>Copyright (C) 2014-%i The Aro and PIVX Core Developers</source>
+        <source>Copyright (C) 2014-%i The Apeiron and PIVX Core Developers</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
         <location line="+1"/>
-        <source>Copyright (C) 2015-%i The ARO Core Developers</source>
+        <source>Copyright (C) 2015-%i The APEIR Core Developers</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
@@ -5575,7 +5575,7 @@ for example: alertnotify=echo %%s | mail -s &quot;ARO Alert&quot; admin@foo.com
     </message>
     <message>
         <location line="+1"/>
-        <source>Error loading wallet.dat: Wallet requires newer version of ARO Core</source>
+        <source>Error loading wallet.dat: Wallet requires newer version of APEIR Core</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
@@ -5640,7 +5640,7 @@ for example: alertnotify=echo %%s | mail -s &quot;ARO Alert&quot; admin@foo.com
     </message>
     <message>
         <location line="+1"/>
-        <source>Fee (in ARO/kB) to add to transactions you send (default: %s)</source>
+        <source>Fee (in APEIR/kB) to add to transactions you send (default: %s)</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
@@ -5715,7 +5715,7 @@ for example: alertnotify=echo %%s | mail -s &quot;ARO Alert&quot; admin@foo.com
     </message>
     <message>
         <location line="+1"/>
-        <source>Initialization sanity check failed. ARO Core is shutting down.</source>
+        <source>Initialization sanity check failed. APEIR Core is shutting down.</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
@@ -5805,7 +5805,7 @@ for example: alertnotify=echo %%s | mail -s &quot;ARO Alert&quot; admin@foo.com
     </message>
     <message>
         <location line="+1"/>
-        <source>Keep N ARO -------- (default: %u)</source>
+        <source>Keep N APEIR -------- (default: %u)</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
@@ -6435,7 +6435,7 @@ for example: alertnotify=echo %%s | mail -s &quot;ARO Alert&quot; admin@foo.com
     </message>
     <message>
         <location line="+1"/>
-        <source>Wallet needed to be rewritten: restart ARO Core to complete</source>
+        <source>Wallet needed to be rewritten: restart APEIR Core to complete</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
@@ -6571,7 +6571,7 @@ for example: alertnotify=echo %%s | mail -s &quot;ARO Alert&quot; admin@foo.com
     </message>
     <message>
         <location line="+12"/>
-        <source>Buy ARO</source>
+        <source>Buy APEIR</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
@@ -6584,7 +6584,7 @@ for example: alertnotify=echo %%s | mail -s &quot;ARO Alert&quot; admin@foo.com
         <location line="-1108"/>
         <location line="+1192"/>
         <location line="+517"/>
-        <source>ARO</source>
+        <source>APEIR</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
@@ -6640,13 +6640,13 @@ for example: alertnotify=echo %%s | mail -s &quot;ARO Alert&quot; admin@foo.com
     </message>
     <message>
         <location line="+177"/>
-        <source>Sell ARO</source>
+        <source>Sell APEIR</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
         <location line="+26"/>
         <location line="+1036"/>
-        <source>ARO Available:</source>
+        <source>APEIR Available:</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
@@ -6676,7 +6676,7 @@ for example: alertnotify=echo %%s | mail -s &quot;ARO Alert&quot; admin@foo.com
     </message>
     <message>
         <location line="+44"/>
-        <source>ARO Balance:</source>
+        <source>APEIR Balance:</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
@@ -6686,7 +6686,7 @@ for example: alertnotify=echo %%s | mail -s &quot;ARO Alert&quot; admin@foo.com
     </message>
     <message>
         <location line="+51"/>
-        <source>ARO Pending:</source>
+        <source>APEIR Pending:</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
@@ -6696,12 +6696,12 @@ for example: alertnotify=echo %%s | mail -s &quot;ARO Alert&quot; admin@foo.com
     </message>
     <message>
         <location line="+32"/>
-        <source>Bittrex ARO Deposit Address:</source>
+        <source>Bittrex APEIR Deposit Address:</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
         <location line="+13"/>
-        <source>Generate ARO Deposit Address</source>
+        <source>Generate APEIR Deposit Address</source>
         <translation type="unfinished"></translation>
     </message>
     <message>

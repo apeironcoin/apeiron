@@ -62,12 +62,12 @@
         <translation>Endereços para recepção</translation>
     </message>
     <message>
-        <source>These are your ARO addresses for sending payments. Always check the amount and the receiving address before sending coins.</source>
-        <translation>Estes são os endereços ARO para envio de pagamentos. Confirme sempre a quantia e o endereço antes de enviar as moedas.</translation>
+        <source>These are your APEIR addresses for sending payments. Always check the amount and the receiving address before sending coins.</source>
+        <translation>Estes são os endereços APEIR para envio de pagamentos. Confirme sempre a quantia e o endereço antes de enviar as moedas.</translation>
     </message>
     <message>
-        <source>These are your ARO addresses for receiving payments. It is recommended to use a new receiving address for each transaction.</source>
-        <translation>Estes são os seus endereços ARO para receber pagamentos. É recomendado que seja usado um novo endereço para cada transacção.</translation>
+        <source>These are your APEIR addresses for receiving payments. It is recommended to use a new receiving address for each transaction.</source>
+        <translation>Estes são os seus endereços APEIR para receber pagamentos. É recomendado que seja usado um novo endereço para cada transacção.</translation>
     </message>
     <message>
         <source>&amp;Copy Address</source>
@@ -188,8 +188,8 @@
         <translation>Carteira cifrada</translation>
     </message>
     <message>
-        <source>ARO will close now to finish the encryption process. Remember that encrypting your wallet cannot fully protect your apeirons from being stolen by malware infecting your computer.</source>
-        <translation>O cliente ARO irá fechar para finalizar o processo de cifra. Lembre-se que cifrar a sua carteira não consegue proteger totalmente as suas apeirons contra roubos feitos por malware presente no seu computador.</translation>
+        <source>APEIR will close now to finish the encryption process. Remember that encrypting your wallet cannot fully protect your apeirons from being stolen by malware infecting your computer.</source>
+        <translation>O cliente APEIR irá fechar para finalizar o processo de cifra. Lembre-se que cifrar a sua carteira não consegue proteger totalmente as suas apeirons contra roubos feitos por malware presente no seu computador.</translation>
     </message>
     <message>
         <source>IMPORTANT: Any previous backups you have made of your wallet file should be replaced with the newly generated, encrypted wallet file. For security reasons, previous backups of the unencrypted wallet file will become useless as soon as you start using the new, encrypted wallet.</source>
@@ -231,8 +231,8 @@
 <context>
     <name>BitcoinGUI</name>
     <message>
-        <source>ARO Core</source>
-        <translation>ARO Core</translation>
+        <source>APEIR Core</source>
+        <translation>APEIR Core</translation>
     </message>
     <message>
         <source>Wallet</source>
@@ -255,8 +255,8 @@
         <translation>&amp;Enviar</translation>
     </message>
     <message>
-        <source>Send coins to a ARO address</source>
-        <translation>Enviar moedas para um endereço ARO</translation>
+        <source>Send coins to a APEIR address</source>
+        <translation>Enviar moedas para um endereço APEIR</translation>
     </message>
     <message>
         <source>&amp;Receive</source>
@@ -283,12 +283,12 @@
         <translation>Sair da aplicação</translation>
     </message>
     <message>
-        <source>&amp;About ARO Core</source>
-        <translation>&amp;Acerca do ARO Core</translation>
+        <source>&amp;About APEIR Core</source>
+        <translation>&amp;Acerca do APEIR Core</translation>
     </message>
     <message>
-        <source>Show information about ARO Core</source>
-        <translation>Mostra informação acerca do ARO Core</translation>
+        <source>Show information about APEIR Core</source>
+        <translation>Mostra informação acerca do APEIR Core</translation>
     </message>
     <message>
         <source>About &amp;Qt</source>
@@ -303,8 +303,8 @@
         <translation>&amp;Opções...</translation>
     </message>
     <message>
-        <source>Modify configuration options for ARO</source>
-        <translation>Modificar opções de configuração do ARO</translation>
+        <source>Modify configuration options for APEIR</source>
+        <translation>Modificar opções de configuração do APEIR</translation>
     </message>
     <message>
         <source>&amp;Show / Hide</source>
@@ -355,16 +355,16 @@
         <translation>&amp;Assinar Mensagem</translation>
     </message>
     <message>
-        <source>Sign messages with your ARO addresses to prove you own them</source>
-        <translation>Assine mensagens com os seus endereços ARO para provar que são seus</translation>
+        <source>Sign messages with your APEIR addresses to prove you own them</source>
+        <translation>Assine mensagens com os seus endereços APEIR para provar que são seus</translation>
     </message>
     <message>
         <source>&amp;Verify message...</source>
         <translation>&amp;Verificar Mensagem</translation>
     </message>
     <message>
-        <source>Verify messages to ensure they were signed with specified ARO addresses</source>
-        <translation>Verifica mensagens para garantir que foram assinadas com um endereço ARO específico</translation>
+        <source>Verify messages to ensure they were signed with specified APEIR addresses</source>
+        <translation>Verifica mensagens para garantir que foram assinadas com um endereço APEIR específico</translation>
     </message>
     <message>
         <source>&amp;Information</source>
@@ -451,16 +451,16 @@
         <translation>Opções de linha de &amp;comandos</translation>
     </message>
     <message>
-        <source>ARO Core client</source>
-        <translation>Cliente ARO Core</translation>
+        <source>APEIR Core client</source>
+        <translation>Cliente APEIR Core</translation>
     </message>
     <message numerus="yes">
         <source>Processed %n blocks of transaction history.</source>
         <translation><numerusform>%n bloco do histórico de transacções processado.</numerusform><numerusform>%n blocos do histórico de transacções processados.</numerusform></translation>
     </message>
     <message>
-        <source>Show the ARO Core help message to get a list with possible ARO command-line options</source>
-        <translation>Mostra a mensagem de ajuda do ARO Core para obter a lista com as possíveis opções de linha de comandos</translation>
+        <source>Show the APEIR Core help message to get a list with possible APEIR command-line options</source>
+        <translation>Mostra a mensagem de ajuda do APEIR Core para obter a lista com as possíveis opções de linha de comandos</translation>
     </message>
     <message>
         <source>&amp;File</source>
@@ -483,8 +483,8 @@
         <translation>Barra de ferramentas</translation>
     </message>
     <message numerus="yes">
-        <source>%n active connection(s) to ARO network</source>
-        <translation><numerusform>%n ligação activa à rede ARO</numerusform><numerusform>%n ligações activas à rede ARO</numerusform></translation>
+        <source>%n active connection(s) to APEIR network</source>
+        <translation><numerusform>%n ligação activa à rede APEIR</numerusform><numerusform>%n ligações activas à rede APEIR</numerusform></translation>
     </message>
     <message>
         <source>Synchronizing with network...</source>
@@ -892,16 +892,16 @@ Endereço: %4
         <translation>Configuração Obfuscate</translation>
     </message>
     <message>
-        <source>Obfuscate was successfully set to basic (%1 and 2 rounds). You can change this at any time by opening ARO's configuration screen.</source>
-        <translation>Obfuscate foi colocado com sucesso no modo básico (%1 e 2 voltas). Pode mudar esta definição em qualquer altura abrindo o ecrã de configuração ARO.</translation>
+        <source>Obfuscate was successfully set to basic (%1 and 2 rounds). You can change this at any time by opening APEIR's configuration screen.</source>
+        <translation>Obfuscate foi colocado com sucesso no modo básico (%1 e 2 voltas). Pode mudar esta definição em qualquer altura abrindo o ecrã de configuração APEIR.</translation>
     </message>
     <message>
-        <source>Obfuscate was successfully set to high (%1 and 8 rounds). You can change this at any time by opening ARO's configuration screen.</source>
-        <translation>Obfuscate foi colocado com sucesso no modo alto (%1 e 8 voltas). Pode mudar esta definição em qualquer altura abrindo o ecrã de configuração ARO.</translation>
+        <source>Obfuscate was successfully set to high (%1 and 8 rounds). You can change this at any time by opening APEIR's configuration screen.</source>
+        <translation>Obfuscate foi colocado com sucesso no modo alto (%1 e 8 voltas). Pode mudar esta definição em qualquer altura abrindo o ecrã de configuração APEIR.</translation>
     </message>
     <message>
-        <source>Obfuscate was successfully set to maximum (%1 and 16 rounds). You can change this at any time by opening ARO's configuration screen.</source>
-        <translation>Obfuscate foi colocado com sucesso no modo máximo (%1 e 16 voltas). Pode mudar esta definição em qualquer altura abrindo o ecrã de configuração ARO.</translation>
+        <source>Obfuscate was successfully set to maximum (%1 and 16 rounds). You can change this at any time by opening APEIR's configuration screen.</source>
+        <translation>Obfuscate foi colocado com sucesso no modo máximo (%1 e 16 voltas). Pode mudar esta definição em qualquer altura abrindo o ecrã de configuração APEIR.</translation>
     </message>
 </context>
 <context>
@@ -943,8 +943,8 @@ Endereço: %4
         <translation>Editar endereço de envio</translation>
     </message>
     <message>
-        <source>The entered address "%1" is not a valid ARO address.</source>
-        <translation>O endereço introduzido "%1" não é um endereço ARO válido.</translation>
+        <source>The entered address "%1" is not a valid APEIR address.</source>
+        <translation>O endereço introduzido "%1" não é um endereço APEIR válido.</translation>
     </message>
     <message>
         <source>The entered address "%1" is already in the address book.</source>
@@ -985,8 +985,8 @@ Endereço: %4
 <context>
     <name>HelpMessageDialog</name>
     <message>
-        <source>ARO Core</source>
-        <translation>ARO Core</translation>
+        <source>APEIR Core</source>
+        <translation>APEIR Core</translation>
     </message>
     <message>
         <source>version</source>
@@ -997,8 +997,8 @@ Endereço: %4
         <translation>(%1-bit)</translation>
     </message>
     <message>
-        <source>About ARO Core</source>
-        <translation>Acerca do ARO Core</translation>
+        <source>About APEIR Core</source>
+        <translation>Acerca do APEIR Core</translation>
     </message>
     <message>
         <source>Command-line options</source>
@@ -1044,16 +1044,16 @@ Endereço: %4
         <translation>Bem-vindo</translation>
     </message>
     <message>
-        <source>Welcome to ARO Core.</source>
-        <translation>Bem-vindo ao ARO Core.</translation>
+        <source>Welcome to APEIR Core.</source>
+        <translation>Bem-vindo ao APEIR Core.</translation>
     </message>
     <message>
-        <source>As this is the first time the program is launched, you can choose where ARO Core will store its data.</source>
-        <translation>Como esta é a primeira vez que o programa é executado, pode escolher onde o cliente ARO Core irá guardar os seus dados.</translation>
+        <source>As this is the first time the program is launched, you can choose where APEIR Core will store its data.</source>
+        <translation>Como esta é a primeira vez que o programa é executado, pode escolher onde o cliente APEIR Core irá guardar os seus dados.</translation>
     </message>
     <message>
-        <source>ARO Core will download and store a copy of the ARO block chain. At least %1GB of data will be stored in this directory, and it will grow over time. The wallet will also be stored in this directory.</source>
-        <translation>O cliente ARO Core irá descarregar e guardar uma copia da cadeia de blocos ARO. Pelo menos %1GB de dados serão guardados nesta pasta e irá aumentar com o tempo. A carteira também ficará guardada nesta pasta.</translation>
+        <source>APEIR Core will download and store a copy of the APEIR block chain. At least %1GB of data will be stored in this directory, and it will grow over time. The wallet will also be stored in this directory.</source>
+        <translation>O cliente APEIR Core irá descarregar e guardar uma copia da cadeia de blocos APEIR. Pelo menos %1GB de dados serão guardados nesta pasta e irá aumentar com o tempo. A carteira também ficará guardada nesta pasta.</translation>
     </message>
     <message>
         <source>Use the default data directory</source>
@@ -1064,8 +1064,8 @@ Endereço: %4
         <translation>Usar uma pasta de dados personalizada</translation>
     </message>
     <message>
-        <source>ARO Core</source>
-        <translation>ARO Core</translation>
+        <source>APEIR Core</source>
+        <translation>APEIR Core</translation>
     </message>
     <message>
         <source>Error: Specified data directory "%1" cannot be created.</source>
@@ -1118,12 +1118,12 @@ Endereço: %4
         <translation>&amp;Geral</translation>
     </message>
     <message>
-        <source>Automatically start ARO after logging in to the system.</source>
-        <translation>Executar automaticamente o cliente ARO quando entrar no sistema.</translation>
+        <source>Automatically start APEIR after logging in to the system.</source>
+        <translation>Executar automaticamente o cliente APEIR quando entrar no sistema.</translation>
     </message>
     <message>
-        <source>&amp;Start ARO on system login</source>
-        <translation>&amp;Iniciar o cliente ARO ao entrar no sistema</translation>
+        <source>&amp;Start APEIR on system login</source>
+        <translation>&amp;Iniciar o cliente APEIR ao entrar no sistema</translation>
     </message>
     <message>
         <source>Size of &amp;database cache</source>
@@ -1150,8 +1150,8 @@ Endereço: %4
         <translation>Esta quantia actua como um limite, a partir do qual o Obfuscate é desligado.</translation>
     </message>
     <message>
-        <source>Amount of ARO to keep --------</source>
-        <translation>Quantia de ARO a manter anonimizada</translation>
+        <source>Amount of APEIR to keep --------</source>
+        <translation>Quantia de APEIR a manter anonimizada</translation>
     </message>
     <message>
         <source>W&amp;allet</source>
@@ -1170,8 +1170,8 @@ Endereço: %4
         <translation>Aceitar ligações de entrada</translation>
     </message>
     <message>
-        <source>Connect to the ARO network through a SOCKS5 proxy.</source>
-        <translation>Efectuar a ligação à rede ARO através de um proxy SOCKS5.</translation>
+        <source>Connect to the APEIR network through a SOCKS5 proxy.</source>
+        <translation>Efectuar a ligação à rede APEIR através de um proxy SOCKS5.</translation>
     </message>
     <message>
         <source>&amp;Connect through SOCKS5 proxy (default proxy):</source>
@@ -1202,8 +1202,8 @@ Endereço: %4
         <translation>&amp;Rede</translation>
     </message>
     <message>
-        <source>Automatically open the ARO client port on the router. This only works when your router supports UPnP and it is enabled.</source>
-        <translation>Abrir automaticamente a porta do cliente ARO no router. Isto só funciona quando o seu router suporta UPnP e este está activo.</translation>
+        <source>Automatically open the APEIR client port on the router. This only works when your router supports UPnP and it is enabled.</source>
+        <translation>Abrir automaticamente a porta do cliente APEIR no router. Isto só funciona quando o seu router suporta UPnP e este está activo.</translation>
     </message>
     <message>
         <source>Map port using &amp;UPnP</source>
@@ -1254,7 +1254,7 @@ Endereço: %4
         <translation>&amp;Linguagem do interface:</translation>
     </message>
     <message>
-        <source>The user interface language can be set here. This setting will take effect after restarting ARO.</source>
+        <source>The user interface language can be set here. This setting will take effect after restarting APEIR.</source>
         <translation>A linguagem do interface pode ser definida aqui. Esta definição terá efeito depois de reiniciar a aplicação.</translation>
     </message>
     <message>
@@ -1343,8 +1343,8 @@ https://www.transifex.com/apeiron-crypto/apeiron-wallet-translations/</translati
         <translation>De</translation>
     </message>
     <message>
-        <source>The displayed information may be out of date. Your wallet automatically synchronizes with the ARO network after a connection is established, but this process has not completed yet.</source>
-        <translation>A informação mostrada pode estar desactualizada. A sua carteira sincroniza automaticamente com a rede ARO assim que for estabelecida uma ligação, mas este processo ainda não terminou.</translation>
+        <source>The displayed information may be out of date. Your wallet automatically synchronizes with the APEIR network after a connection is established, but this process has not completed yet.</source>
+        <translation>A informação mostrada pode estar desactualizada. A sua carteira sincroniza automaticamente com a rede APEIR assim que for estabelecida uma ligação, mas este processo ainda não terminou.</translation>
     </message>
     <message>
         <source>Available:</source>
@@ -1584,8 +1584,8 @@ https://www.transifex.com/apeiron-crypto/apeiron-wallet-translations/</translati
         <translation>Endereço de pagamento inválido %1</translation>
     </message>
     <message>
-        <source>URI cannot be parsed! This can be caused by an invalid ARO address or malformed URI parameters.</source>
-        <translation>O URI não pode ser carregado! Isto pode ser causado por um endereço ARO inválido ou parâmetros do URI incorrectos.</translation>
+        <source>URI cannot be parsed! This can be caused by an invalid APEIR address or malformed URI parameters.</source>
+        <translation>O URI não pode ser carregado! Isto pode ser causado por um endereço APEIR inválido ou parâmetros do URI incorrectos.</translation>
     </message>
     <message>
         <source>Payment request file cannot be read! This can be caused by an invalid payment request file.</source>
@@ -1670,8 +1670,8 @@ https://www.transifex.com/apeiron-crypto/apeiron-wallet-translations/</translati
         <translation>Quantia</translation>
     </message>
     <message>
-        <source>Enter a ARO address (e.g. %1)</source>
-        <translation>Insira um endereço ARO (ex. %1)</translation>
+        <source>Enter a APEIR address (e.g. %1)</source>
+        <translation>Insira um endereço APEIR (ex. %1)</translation>
     </message>
     <message>
         <source>%1 d</source>
@@ -1760,8 +1760,8 @@ https://www.transifex.com/apeiron-crypto/apeiron-wallet-translations/</translati
         <translation>Número de ligações</translation>
     </message>
     <message>
-        <source>Open the ARO debug log file from the current data directory. This can take a few seconds for large log files.</source>
-        <translation>Abrir o ficheiro de registo de depuração ARO a partir da pasta de dados actual. Para grandes ficheiros de registo pode demorar alguns segundos.</translation>
+        <source>Open the APEIR debug log file from the current data directory. This can take a few seconds for large log files.</source>
+        <translation>Abrir o ficheiro de registo de depuração APEIR a partir da pasta de dados actual. Para grandes ficheiros de registo pode demorar alguns segundos.</translation>
     </message>
     <message>
         <source>&amp;Open</source>
@@ -1968,8 +1968,8 @@ https://www.transifex.com/apeiron-crypto/apeiron-wallet-translations/</translati
         <translation>Saída:</translation>
     </message>
     <message>
-        <source>Welcome to the ARO RPC console.</source>
-        <translation>Bem-vindo à consola RPC ARO</translation>
+        <source>Welcome to the APEIR RPC console.</source>
+        <translation>Bem-vindo à consola RPC APEIR</translation>
     </message>
     <message>
         <source>Use up and down arrows to navigate history, and &lt;b&gt;Ctrl-L&lt;/b&gt; to clear screen.</source>
@@ -2031,8 +2031,8 @@ https://www.transifex.com/apeiron-crypto/apeiron-wallet-translations/</translati
         <translation>R&amp;eutilizar um endereço de recebimento existente (não recomendado)</translation>
     </message>
     <message>
-        <source>An optional message to attach to the payment request, which will be displayed when the request is opened. Note: The message will not be sent with the payment over the ARO network.</source>
-        <translation>Mensagem opcional para anexar à solicitação de pagamento, que será mostrada quando a solicitação for aberta. Nota: A mensagem não será enviada com o pagamento através da rede ARO.</translation>
+        <source>An optional message to attach to the payment request, which will be displayed when the request is opened. Note: The message will not be sent with the payment over the APEIR network.</source>
+        <translation>Mensagem opcional para anexar à solicitação de pagamento, que será mostrada quando a solicitação for aberta. Nota: A mensagem não será enviada com o pagamento através da rede APEIR.</translation>
     </message>
     <message>
         <source>&amp;Message:</source>
@@ -2043,8 +2043,8 @@ https://www.transifex.com/apeiron-crypto/apeiron-wallet-translations/</translati
         <translation>Rótulo opcional para associar com o novo endereço de recebimento.</translation>
     </message>
     <message>
-        <source>An optional message to attach to the payment request, which will be displayed when the request is opened.&lt;br&gt;Note: The message will not be sent with the payment over the ARO network.</source>
-        <translation>Mensagem opcional para anexar à solicitação de pagamento, que será mostrada quando a solicitação for aberta. &lt;br&gt;Nota: A mensagem não será enviada com o pagamento através da rede ARO.</translation>
+        <source>An optional message to attach to the payment request, which will be displayed when the request is opened.&lt;br&gt;Note: The message will not be sent with the payment over the APEIR network.</source>
+        <translation>Mensagem opcional para anexar à solicitação de pagamento, que será mostrada quando a solicitação for aberta. &lt;br&gt;Nota: A mensagem não será enviada com o pagamento através da rede APEIR.</translation>
     </message>
     <message>
         <source>Use this form to request payments. All fields are &lt;b&gt;optional&lt;/b&gt;.</source>
@@ -2480,8 +2480,8 @@ https://www.transifex.com/apeiron-crypto/apeiron-wallet-translations/</translati
         <translation>Pagar somente a taxa mínima de %1</translation>
     </message>
     <message>
-        <source>Warning: Invalid ARO address</source>
-        <translation>Aviso: Endereço ARO inválido</translation>
+        <source>Warning: Invalid APEIR address</source>
+        <translation>Aviso: Endereço APEIR inválido</translation>
     </message>
     <message>
         <source>Warning: Unknown change address</source>
@@ -2503,8 +2503,8 @@ https://www.transifex.com/apeiron-crypto/apeiron-wallet-translations/</translati
         <translation>&amp;Pagar a:</translation>
     </message>
     <message>
-        <source>The ARO address to send the payment to</source>
-        <translation>O endereço ARO para onde enviar o pagamento</translation>
+        <source>The APEIR address to send the payment to</source>
+        <translation>O endereço APEIR para onde enviar o pagamento</translation>
     </message>
     <message>
         <source>Choose previously used address</source>
@@ -2543,8 +2543,8 @@ https://www.transifex.com/apeiron-crypto/apeiron-wallet-translations/</translati
         <translation>Mensagem:</translation>
     </message>
     <message>
-        <source>A message that was attached to the apeiron: URI which will be stored with the transaction for your reference. Note: This message will not be sent over the ARO network.</source>
-        <translation>Mensagem que foi anexada ao apeiron: URI e que será guardada com a transacção para sua referência. Nota: Esta mensagem não será enviada para a rede ARO.</translation>
+        <source>A message that was attached to the apeiron: URI which will be stored with the transaction for your reference. Note: This message will not be sent over the APEIR network.</source>
+        <translation>Mensagem que foi anexada ao apeiron: URI e que será guardada com a transacção para sua referência. Nota: Esta mensagem não será enviada para a rede APEIR.</translation>
     </message>
     <message>
         <source>This is an unverified payment request.</source>
@@ -2570,8 +2570,8 @@ https://www.transifex.com/apeiron-crypto/apeiron-wallet-translations/</translati
 <context>
     <name>ShutdownWindow</name>
     <message>
-        <source>ARO Core is shutting down...</source>
-        <translation>O ARO Core está a desligar...</translation>
+        <source>APEIR Core is shutting down...</source>
+        <translation>O APEIR Core está a desligar...</translation>
     </message>
     <message>
         <source>Do not shut down the computer until this window disappears.</source>
@@ -2593,8 +2593,8 @@ https://www.transifex.com/apeiron-crypto/apeiron-wallet-translations/</translati
         <translation>Pode assinar mensagens com os seus endereços para provar que são seus. Tenha atenção para não assinar mensagens vagas, já que, ataques de phishing podem levá-lo a assinar a sua própria identidade para os atacantes. Apenas assine declarações detalhadas com as quais concorde.</translation>
     </message>
     <message>
-        <source>The ARO address to sign the message with</source>
-        <translation>Endereço ARO com o qual deseja assinar a mensagem</translation>
+        <source>The APEIR address to sign the message with</source>
+        <translation>Endereço APEIR com o qual deseja assinar a mensagem</translation>
     </message>
     <message>
         <source>Choose previously used address</source>
@@ -2625,8 +2625,8 @@ https://www.transifex.com/apeiron-crypto/apeiron-wallet-translations/</translati
         <translation>Copiar a assinatura actual para a área de transferência</translation>
     </message>
     <message>
-        <source>Sign the message to prove you own this ARO address</source>
-        <translation>Assinar a mensagem para provar que é o proprietário deste endereço ARO</translation>
+        <source>Sign the message to prove you own this APEIR address</source>
+        <translation>Assinar a mensagem para provar que é o proprietário deste endereço APEIR</translation>
     </message>
     <message>
         <source>Sign &amp;Message</source>
@@ -2649,12 +2649,12 @@ https://www.transifex.com/apeiron-crypto/apeiron-wallet-translations/</translati
         <translation>Introduza o endereço de assinatura, mensagem (assegure-se que copia exactamente as quebras de linha, espaços, tabulações, etc) e assinatura abaixo para verificar a mensagem. Tenha atenção para não ler mais na assinatura do que o que estiver na mensagem assinada, para evitar ser enganado por um atacante que se encontre entre si e quem assinou a mensagem.</translation>
     </message>
     <message>
-        <source>The ARO address the message was signed with</source>
-        <translation>Endereço ARO com o qual a mensagem foi assinada</translation>
+        <source>The APEIR address the message was signed with</source>
+        <translation>Endereço APEIR com o qual a mensagem foi assinada</translation>
     </message>
     <message>
-        <source>Verify the message to ensure it was signed with the specified ARO address</source>
-        <translation>Verificar a mensagem de forma a garantir que foi assinada com o endereço ARO especificado</translation>
+        <source>Verify the message to ensure it was signed with the specified APEIR address</source>
+        <translation>Verificar a mensagem de forma a garantir que foi assinada com o endereço APEIR especificado</translation>
     </message>
     <message>
         <source>Verify &amp;Message</source>
@@ -2720,8 +2720,8 @@ https://www.transifex.com/apeiron-crypto/apeiron-wallet-translations/</translati
 <context>
     <name>SplashScreen</name>
     <message>
-        <source>ARO Core</source>
-        <translation>ARO Core</translation>
+        <source>APEIR Core</source>
+        <translation>APEIR Core</translation>
     </message>
     <message>
         <source>Version %1</source>
@@ -2732,8 +2732,8 @@ https://www.transifex.com/apeiron-crypto/apeiron-wallet-translations/</translati
         <translation>Os programadores Bitcoin Core</translation>
     </message>
     <message>
-        <source>The ARO Core developers</source>
-        <translation>Os programadores ARO Core</translation>
+        <source>The APEIR Core developers</source>
+        <translation>Os programadores APEIR Core</translation>
     </message>
     <message>
         <source>[testnet]</source>
@@ -3310,8 +3310,8 @@ https://www.transifex.com/apeiron-crypto/apeiron-wallet-translations/</translati
         <translation>Vincular a um determinado endereço e ouvir sempre aí. Use a notação [endereço]:porta para IPv6</translation>
     </message>
     <message>
-        <source>Cannot obtain a lock on data directory %s. ARO Core is probably already running.</source>
-        <translation>Não foi possível obter acesso exclusivo à pasta de dados %s. Possivelmente o ARO Core já se encontra em execução.</translation>
+        <source>Cannot obtain a lock on data directory %s. APEIR Core is probably already running.</source>
+        <translation>Não foi possível obter acesso exclusivo à pasta de dados %s. Possivelmente o APEIR Core já se encontra em execução.</translation>
     </message>
     <message>
         <source>Obfuscate uses exact -------- amounts to send funds, you might simply need to anonymize some more coins.</source>
@@ -3366,8 +3366,8 @@ https://www.transifex.com/apeiron-crypto/apeiron-wallet-translations/</translati
         <translation>Esta é uma compilação prévia de teste - use por sua conta e risco - não use para minar nem em aplicações comerciais</translation>
     </message>
     <message>
-        <source>Unable to bind to %s on this computer. ARO Core is probably already running.</source>
-        <translation>Não foi possível vincular a %s neste computador. Provavelmente o ARO Core já está a ser executado.</translation>
+        <source>Unable to bind to %s on this computer. APEIR Core is probably already running.</source>
+        <translation>Não foi possível vincular a %s neste computador. Provavelmente o APEIR Core já está a ser executado.</translation>
     </message>
     <message>
         <source>Unable to locate enough Obfuscate -------- funds for this transaction.</source>
@@ -3650,8 +3650,8 @@ https://www.transifex.com/apeiron-crypto/apeiron-wallet-translations/</translati
         <translation>Aviso: -maxtxfee é demasiado alta! Taxas deste tamanho podem ser pagas em apenas uma transacção.</translation>
     </message>
     <message>
-        <source>Warning: Please check that your computer's date and time are correct! If your clock is wrong ARO Core will not work properly.</source>
-        <translation>Aviso: Por favor verifique que a data e a hora do computador está correcta! Se o relógio estiver errado o ARO Core não vai funcionar correctamente.</translation>
+        <source>Warning: Please check that your computer's date and time are correct! If your clock is wrong APEIR Core will not work properly.</source>
+        <translation>Aviso: Por favor verifique que a data e a hora do computador está correcta! Se o relógio estiver errado o APEIR Core não vai funcionar correctamente.</translation>
     </message>
     <message>
         <source>(46123 could be used only on mainnet)</source>
@@ -3696,8 +3696,8 @@ https://www.transifex.com/apeiron-crypto/apeiron-wallet-translations/</translati
         <translation>Copyright (C) 2009-%i The Bitcoin Core Developers</translation>
     </message>
     <message>
-        <source>Copyright (C) 2014-%i The ARO Core Developers</source>
-        <translation>Copyright (C) 2014-%i ARO Core Developers</translation>
+        <source>Copyright (C) 2014-%i The APEIR Core Developers</source>
+        <translation>Copyright (C) 2014-%i APEIR Core Developers</translation>
     </message>
     <message>
         <source>Could not parse -rpcbind value %s as network address</source>
@@ -3728,8 +3728,8 @@ https://www.transifex.com/apeiron-crypto/apeiron-wallet-translations/</translati
         <translation>Erro conectando ao Masternode</translation>
     </message>
     <message>
-        <source>Error loading wallet.dat: Wallet requires newer version of ARO Core</source>
-        <translation>Erro carregando wallet.dat Carteira precisa de nova versão do ARO Core</translation>
+        <source>Error loading wallet.dat: Wallet requires newer version of APEIR Core</source>
+        <translation>Erro carregando wallet.dat Carteira precisa de nova versão do APEIR Core</translation>
     </message>
     <message>
         <source>Error: A fatal internal error occured, see debug.log for details</source>
@@ -3800,8 +3800,8 @@ https://www.transifex.com/apeiron-crypto/apeiron-wallet-translations/</translati
         <translation>Informação</translation>
     </message>
     <message>
-        <source>Initialization sanity check failed. ARO Core is shutting down.</source>
-        <translation>A verificação de consistência no arranque falhou. O ARO Core está a encerrar.</translation>
+        <source>Initialization sanity check failed. APEIR Core is shutting down.</source>
+        <translation>A verificação de consistência no arranque falhou. O APEIR Core está a encerrar.</translation>
     </message>
     <message>
         <source>Input is not valid.</source>
@@ -4044,8 +4044,8 @@ https://www.transifex.com/apeiron-crypto/apeiron-wallet-translations/</translati
         <translation>Utilize UPNP para mapear porta de escuta (default: %u)</translation>
     </message>
     <message>
-        <source>Wallet needed to be rewritten: restart ARO Core to complete</source>
-        <translation>Carteira necessita de ser re-escrita: reinicie ARO Core para completar</translation>
+        <source>Wallet needed to be rewritten: restart APEIR Core to complete</source>
+        <translation>Carteira necessita de ser re-escrita: reinicie APEIR Core para completar</translation>
     </message>
     <message>
         <source>Warning: Unsupported argument -benchmark ignored, use -debug=bench.</source>
@@ -4185,7 +4185,7 @@ https://www.transifex.com/apeiron-crypto/apeiron-wallet-translations/</translati
     </message>
     <message>
         <source>RPC SSL options: (see the Bitcoin Wiki for SSL setup instructions)</source>
-        <translation>Opções RPC SSL: (para instruções de configuração SSL dirija-se à ARO Wiki)</translation>
+        <translation>Opções RPC SSL: (para instruções de configuração SSL dirija-se à APEIR Wiki)</translation>
     </message>
     <message>
         <source>RPC server options:</source>

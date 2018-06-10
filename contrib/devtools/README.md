@@ -18,7 +18,7 @@ For example:
   ./github-merge.py 3077
 
 (in any git repository) will help you merge pull request #3077 for the
-ARO-Project/ARO repository.
+APEIR-Project/APEIR repository.
 
 What it does:
 * Fetch master and the pull request.
@@ -36,16 +36,16 @@ couldn't mess with the sources.
 
 Setup
 ---------
-Configuring the github-merge tool for the ARO repository is done in the following way:
+Configuring the github-merge tool for the APEIR repository is done in the following way:
 
-    git config githubmerge.repository ARO-Project/ARO
+    git config githubmerge.repository APEIR-Project/APEIR
     git config githubmerge.testcmd "make -j4 check" (adapt to whatever you want to use for testing)
     git config --global user.signingkey mykeyid (if you want to GPG sign)
 
 optimize-pngs.py
 ================
 
-A script to optimize png files in the ARO
+A script to optimize png files in the APEIR
 repository (requires pngcrush).
 
 fix-copyright-headers.py

@@ -30,7 +30,7 @@ static const char UNUSED* apeiron_strings[] = {
                                    "notation for IPv6. This option can be specified multiple times (default: "
                                    "bind to all interfaces)"),
     QT_TRANSLATE_NOOP("apeiron-core", ""
-                                   "Cannot obtain a lock on data directory %s. ARO Core is probably already "
+                                   "Cannot obtain a lock on data directory %s. APEIR Core is probably already "
                                    "running."),
     QT_TRANSLATE_NOOP("apeiron-core", ""
                                    "Change automatic finalized budget voting behavior. mode=auto: Vote for only "
@@ -45,7 +45,7 @@ static const char UNUSED* apeiron_strings[] = {
                                    "Delete all wallet transactions and only recover those parts of the "
                                    "blockchain through -rescan on startup"),
     QT_TRANSLATE_NOOP("apeiron-core", ""
-                                   "Disable all ARO specific functionality (Masternodes, InstantX, "
+                                   "Disable all APEIR specific functionality (Masternodes, InstantX, "
                                    "Budgeting) (0-1, default: %u)"),
     QT_TRANSLATE_NOOP("apeiron-core", ""
                                    "Distributed under the MIT software license, see the accompanying file "
@@ -74,10 +74,10 @@ static const char UNUSED* apeiron_strings[] = {
                                    "Execute command when the best block changes (%s in cmd is replaced by block "
                                    "hash)"),
     QT_TRANSLATE_NOOP("apeiron-core", ""
-                                   "Fees (in ARO/Kb) smaller than this are considered zero fee for relaying "
+                                   "Fees (in APEIR/Kb) smaller than this are considered zero fee for relaying "
                                    "(default: %s)"),
     QT_TRANSLATE_NOOP("apeiron-core", ""
-                                   "Fees (in ARO/Kb) smaller than this are considered zero fee for transaction "
+                                   "Fees (in APEIR/Kb) smaller than this are considered zero fee for transaction "
                                    "creation (default: %s)"),
     QT_TRANSLATE_NOOP("apeiron-core", ""
                                    "Flush database activity from memory pool to disk log every <n> megabytes "
@@ -160,17 +160,17 @@ static const char UNUSED* apeiron_strings[] = {
                                    "If the file does not exist, create it with owner-readable-only file "
                                    "permissions.\n"
                                    "It is also recommended to set alertnotify so you are notified of problems;\n"
-                                   "for example: alertnotify=echo %%s | mail -s \"ARO Alert\" admin@foo.com\n"),
+                                   "for example: alertnotify=echo %%s | mail -s \"APEIR Alert\" admin@foo.com\n"),
     QT_TRANSLATE_NOOP("apeiron-core", ""
-                                   "Unable to bind to %s on this computer. ARO Core is probably already running."),
+                                   "Unable to bind to %s on this computer. APEIR Core is probably already running."),
     QT_TRANSLATE_NOOP("apeiron-core", ""
                                    "Unable to locate enough -------- -------- funds for this transaction."),
     QT_TRANSLATE_NOOP("apeiron-core", ""
                                    "Unable to locate enough -------- non--------- funds for this "
-                                   "transaction that are not equal 10000 ARO."),
+                                   "transaction that are not equal 10000 APEIR."),
     QT_TRANSLATE_NOOP("apeiron-core", ""
                                    "Unable to locate enough funds for this transaction that are not equal 10000 "
-                                   "ARO."),
+                                   "APEIR."),
     QT_TRANSLATE_NOOP("apeiron-core", ""
                                    "Use separate SOCKS5 proxy to reach peers via Tor hidden services (default: "
                                    "%s)"),
@@ -182,7 +182,7 @@ static const char UNUSED* apeiron_strings[] = {
                                    "pay if you send a transaction."),
     QT_TRANSLATE_NOOP("apeiron-core", ""
                                    "Warning: Please check that your computer's date and time are correct! If "
-                                   "your clock is wrong ARO Core will not work properly."),
+                                   "your clock is wrong APEIR Core will not work properly."),
     QT_TRANSLATE_NOOP("apeiron-core", ""
                                    "Warning: The network does not appear to fully agree! Some miners appear to "
                                    "be experiencing issues."),
@@ -235,8 +235,8 @@ static const char UNUSED* apeiron_strings[] = {
     QT_TRANSLATE_NOOP("apeiron-core", "Connect to a node to retrieve peer addresses, and disconnect"),
     QT_TRANSLATE_NOOP("apeiron-core", "Connection options:"),
     QT_TRANSLATE_NOOP("apeiron-core", "Copyright (C) 2009-%i The Bitcoin Core Developers"),
-    QT_TRANSLATE_NOOP("apeiron-core", "Copyright (C) 2014-%i The Aro and PIVX Core Developers"),
-    QT_TRANSLATE_NOOP("apeiron-core", "Copyright (C) 2015-%i The ARO Core Developers"),
+    QT_TRANSLATE_NOOP("apeiron-core", "Copyright (C) 2014-%i The Apeiron and PIVX Core Developers"),
+    QT_TRANSLATE_NOOP("apeiron-core", "Copyright (C) 2015-%i The APEIR Core Developers"),
     QT_TRANSLATE_NOOP("apeiron-core", "Corrupted block database detected"),
     QT_TRANSLATE_NOOP("apeiron-core", "Could not parse -rpcbind value %s as network address"),
     QT_TRANSLATE_NOOP("apeiron-core", "Could not parse masternode.conf"),
@@ -254,7 +254,7 @@ static const char UNUSED* apeiron_strings[] = {
     QT_TRANSLATE_NOOP("apeiron-core", "Error loading block database"),
     QT_TRANSLATE_NOOP("apeiron-core", "Error loading wallet.dat"),
     QT_TRANSLATE_NOOP("apeiron-core", "Error loading wallet.dat: Wallet corrupted"),
-    QT_TRANSLATE_NOOP("apeiron-core", "Error loading wallet.dat: Wallet requires newer version of ARO Core"),
+    QT_TRANSLATE_NOOP("apeiron-core", "Error loading wallet.dat: Wallet requires newer version of APEIR Core"),
     QT_TRANSLATE_NOOP("apeiron-core", "Error opening block database"),
     QT_TRANSLATE_NOOP("apeiron-core", "Error reading from database, shutting down."),
     QT_TRANSLATE_NOOP("apeiron-core", "Error recovering public key."),
@@ -267,7 +267,7 @@ static const char UNUSED* apeiron_strings[] = {
     QT_TRANSLATE_NOOP("apeiron-core", "Error: You already have pending entries in the -------- pool"),
     QT_TRANSLATE_NOOP("apeiron-core", "Failed to listen on any port. Use -listen=0 if you want this."),
     QT_TRANSLATE_NOOP("apeiron-core", "Failed to read block"),
-    QT_TRANSLATE_NOOP("apeiron-core", "Fee (in ARO/kB) to add to transactions you send (default: %s)"),
+    QT_TRANSLATE_NOOP("apeiron-core", "Fee (in APEIR/kB) to add to transactions you send (default: %s)"),
     QT_TRANSLATE_NOOP("apeiron-core", "Finalizing transaction."),
     QT_TRANSLATE_NOOP("apeiron-core", "Force safe mode (default: %u)"),
     QT_TRANSLATE_NOOP("apeiron-core", "Found enough users, signing ( waiting %s )"),
@@ -282,7 +282,7 @@ static const char UNUSED* apeiron_strings[] = {
     QT_TRANSLATE_NOOP("apeiron-core", "Incompatible version."),
     QT_TRANSLATE_NOOP("apeiron-core", "Incorrect or no genesis block found. Wrong datadir for network?"),
     QT_TRANSLATE_NOOP("apeiron-core", "Information"),
-    QT_TRANSLATE_NOOP("apeiron-core", "Initialization sanity check failed. ARO Core is shutting down."),
+    QT_TRANSLATE_NOOP("apeiron-core", "Initialization sanity check failed. APEIR Core is shutting down."),
     QT_TRANSLATE_NOOP("apeiron-core", "Input is not valid."),
     QT_TRANSLATE_NOOP("apeiron-core", "Insufficient funds."),
     QT_TRANSLATE_NOOP("apeiron-core", "Invalid -onion address: '%s'"),
@@ -300,7 +300,7 @@ static const char UNUSED* apeiron_strings[] = {
     QT_TRANSLATE_NOOP("apeiron-core", "Invalid script detected."),
     QT_TRANSLATE_NOOP("apeiron-core", "KeePassHttp id for the established association"),
     QT_TRANSLATE_NOOP("apeiron-core", "KeePassHttp key for AES encrypted communication with KeePass"),
-    QT_TRANSLATE_NOOP("apeiron-core", "Keep N ARO -------- (default: %u)"),
+    QT_TRANSLATE_NOOP("apeiron-core", "Keep N APEIR -------- (default: %u)"),
     QT_TRANSLATE_NOOP("apeiron-core", "Keep at most <n> unconnectable transactions in memory (default: %u)"),
     QT_TRANSLATE_NOOP("apeiron-core", "Last -------- was too recent."),
     QT_TRANSLATE_NOOP("apeiron-core", "Last successful -------- action was too recent."),
@@ -426,7 +426,7 @@ static const char UNUSED* apeiron_strings[] = {
     QT_TRANSLATE_NOOP("apeiron-core", "Verifying wallet..."),
     QT_TRANSLATE_NOOP("apeiron-core", "Wallet %s resides outside data directory %s"),
     QT_TRANSLATE_NOOP("apeiron-core", "Wallet is locked."),
-    QT_TRANSLATE_NOOP("apeiron-core", "Wallet needed to be rewritten: restart ARO Core to complete"),
+    QT_TRANSLATE_NOOP("apeiron-core", "Wallet needed to be rewritten: restart APEIR Core to complete"),
     QT_TRANSLATE_NOOP("apeiron-core", "Wallet options:"),
     QT_TRANSLATE_NOOP("apeiron-core", "Wallet window title"),
     QT_TRANSLATE_NOOP("apeiron-core", "Warning"),

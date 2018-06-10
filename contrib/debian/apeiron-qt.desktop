@@ -1,9 +1,9 @@
 [Desktop Entry]
 Encoding=UTF-8
-Name=ARO
-Comment=ARO P2P Cryptocurrency
-Comment[fr]=ARO, monnaie virtuelle cryptographique pair à pair
-Comment[tr]=ARO, eşten eşe kriptografik sanal para birimi
+Name=APEIR
+Comment=APEIR P2P Cryptocurrency
+Comment[fr]=APEIR, monnaie virtuelle cryptographique pair à pair
+Comment[tr]=APEIR, eşten eşe kriptografik sanal para birimi
 Exec=apeiron-qt %u
 Terminal=false
 Type=Application

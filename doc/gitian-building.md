@@ -1,9 +1,9 @@
 Gitian building
 ================
 
-*Setup instructions for a gitian build of ARO using a Debian VM or physical system.*
+*Setup instructions for a gitian build of APEIR using a Debian VM or physical system.*
 
-Gitian is the deterministic build process that is used to build the ARO
+Gitian is the deterministic build process that is used to build the APEIR
 Core executables. It provides a way to be reasonably sure that the
 executables are really built from source on GitHub. It also makes sure that
 the same, tested dependencies are used and statically built into the executable.
@@ -26,7 +26,7 @@ Table of Contents
 - [Installing gitian](#installing-gitian)
 - [Setting up gitian images](#setting-up-gitian-images)
 - [Getting and building the inputs](#getting-and-building-the-inputs)
-- [Building ARO](#building-apeiron)
+- [Building APEIR](#building-apeiron)
 - [Building an alternative repository](#building-an-alternative-repository)
 - [Signing externally](#signing-externally)
 - [Uploading signatures](#uploading-signatures)
@@ -281,7 +281,7 @@ Clone the git repositories for apeiron and gitian and then checkout the apeiron 
 
 ```bash
 git clone https://github.com/devrandom/gitian-builder.git
-git clone https://github.com/AROCRYPTO/ARO.git
+git clone https://github.com/APEIRCRYPTO/APEIR.git
 cd apeiron
 git checkout v${VERSION}
 cd ..
@@ -326,10 +326,10 @@ under 'Fetch and build inputs' to install sources which require manual intervent
 the next step: 'Seed the Gitian sources cache', which will fetch all necessary source files allowing
 for gitian to work offline.
 
-Building ARO
+Building APEIR
 ----------------
 
-To build ARO (for Linux, OSX and Windows) just follow the steps under 'perform
+To build APEIR (for Linux, OSX and Windows) just follow the steps under 'perform
 gitian builds' in [doc/release-process.md](release-process.md) in the apeiron repository.
 
 This may take a long time as it also builds the dependencies needed for each descriptor.
@@ -350,7 +350,7 @@ Output from `gbuild` will look something like
     remote: Total 35606 (delta 0), reused 0 (delta 0)
     Receiving objects: 100% (35606/35606), 26.52 MiB | 4.28 MiB/s, done.
     Resolving deltas: 100% (25724/25724), done.
-    From https://github.com/AROCRYPTO/ARO
+    From https://github.com/APEIRCRYPTO/APEIR
     ... (new tags, new branch etc)
     --- Building for precise x86_64 ---
     Stopping target if it is up
@@ -377,7 +377,7 @@ and inputs.
 
 For example:
 ```bash
-URL=https://github.com/AROCRYPTO/ARO
+URL=https://github.com/APEIRCRYPTO/APEIR
 COMMIT=b616fb8ef0d49a919b72b0388b091aaec5849b96
 ./bin/gbuild --commit apeiron=${COMMIT} --url apeiron=${URL} ../apeiron/contrib/gitian-descriptors/gitian-linux.yml
 ./bin/gbuild --commit apeiron=${COMMIT} --url apeiron=${URL} ../apeiron/contrib/gitian-descriptors/gitian-win.yml

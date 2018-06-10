@@ -181,7 +181,7 @@
       <string>Asks</string>
      </property>
     </widget>
-    <widget class="QLabel" name="AROSupply">
+    <widget class="QLabel" name="APEIRSupply">
      <property name="geometry">
       <rect>
        <x>540</x>
@@ -197,7 +197,7 @@
       <set>Qt::AlignRight|Qt::AlignTrailing|Qt::AlignVCenter</set>
      </property>
     </widget>
-    <widget class="QLabel" name="ARODemand">
+    <widget class="QLabel" name="APEIRDemand">
      <property name="geometry">
       <rect>
        <x>160</x>
@@ -432,7 +432,7 @@
     <attribute name="title">
      <string>Buy</string>
     </attribute>
-    <widget class="QPushButton" name="BuyARO">
+    <widget class="QPushButton" name="BuyAPEIR">
      <property name="geometry">
       <rect>
        <x>30</x>
@@ -442,7 +442,7 @@
       </rect>
      </property>
      <property name="text">
-      <string>Buy ARO</string>
+      <string>Buy APEIR</string>
      </property>
      <property name="icon">
       <iconset resource="../apeiron.qrc">
@@ -512,7 +512,7 @@
       </rect>
      </property>
      <property name="text">
-      <string>ARO</string>
+      <string>APEIR</string>
      </property>
     </widget>
     <widget class="QLabel" name="label_5">
@@ -1704,10 +1704,10 @@
       </rect>
      </property>
      <property name="text">
-      <string>ARO</string>
+      <string>APEIR</string>
      </property>
     </widget>
-    <widget class="QLineEdit" name="UnitsInputARO">
+    <widget class="QLineEdit" name="UnitsInputAPEIR">
      <property name="geometry">
       <rect>
        <x>310</x>
@@ -1741,7 +1741,7 @@
       </font>
      </property>
     </widget>
-    <widget class="QPushButton" name="SellAROBTN">
+    <widget class="QPushButton" name="SellAPEIRBTN">
      <property name="geometry">
       <rect>
        <x>30</x>
@@ -1751,7 +1751,7 @@
       </rect>
      </property>
      <property name="text">
-      <string>Sell ARO</string>
+      <string>Sell APEIR</string>
      </property>
      <property name="icon">
       <iconset resource="../apeiron">
@@ -1777,12 +1777,12 @@
          </font>
         </property>
         <property name="text">
-         <string>ARO Available:</string>
+         <string>APEIR Available:</string>
         </property>
        </widget>
       </item>
       <item>
-       <widget class="QLabel" name="AROAvailableLabel">
+       <widget class="QLabel" name="APEIRAvailableLabel">
         <property name="palette">
          <palette>
           <active>
@@ -2213,7 +2213,7 @@
        </widget>
       </item>
       <item>
-       <widget class="QLabel" name="labelARO">
+       <widget class="QLabel" name="labelAPEIR">
         <property name="font">
          <font>
           <weight>75</weight>
@@ -2221,7 +2221,7 @@
          </font>
         </property>
         <property name="text">
-         <string>ARO</string>
+         <string>APEIR</string>
         </property>
        </widget>
       </item>
@@ -2733,7 +2733,7 @@
       <string>TextLabel</string>
      </property>
     </widget>
-    <widget class="QLabel" name="AROBalanceLabel">
+    <widget class="QLabel" name="APEIRBalanceLabel">
      <property name="geometry">
       <rect>
        <x>150</x>
@@ -2762,7 +2762,7 @@
       </font>
      </property>
      <property name="text">
-      <string>ARO Balance:</string>
+      <string>APEIR Balance:</string>
      </property>
     </widget>
     <widget class="QLabel" name="label_12">
@@ -2784,7 +2784,7 @@
       <string>BTC Balance:</string>
      </property>
     </widget>
-    <widget class="QLabel" name="AROAvailableLabel_2">
+    <widget class="QLabel" name="APEIRAvailableLabel_2">
      <property name="geometry">
       <rect>
        <x>150</x>
@@ -2813,7 +2813,7 @@
       </font>
      </property>
      <property name="text">
-      <string>ARO Available:</string>
+      <string>APEIR Available:</string>
      </property>
     </widget>
     <widget class="QLabel" name="label_14">
@@ -2832,10 +2832,10 @@
       </font>
      </property>
      <property name="text">
-      <string>ARO Pending:</string>
+      <string>APEIR Pending:</string>
      </property>
     </widget>
-    <widget class="QLabel" name="AROPendingLabel">
+    <widget class="QLabel" name="APEIRPendingLabel">
      <property name="geometry">
       <rect>
        <x>150</x>
@@ -2928,7 +2928,7 @@
       </font>
      </property>
      <property name="text">
-      <string>Bittrex ARO Deposit Address:</string>
+      <string>Bittrex APEIR Deposit Address:</string>
      </property>
     </widget>
     <widget class="QPushButton" name="GenDepositBTN">
@@ -2941,7 +2941,7 @@
       </rect>
      </property>
      <property name="text">
-      <string>Generate ARO Deposit Address</string>
+      <string>Generate APEIR Deposit Address</string>
      </property>
      <property name="icon">
       <iconset resource="../apeiron.qrc">
@@ -3155,7 +3155,7 @@
        <string notr="true">border: 1px solid #61696c;margin-left:4px;</string>
       </property>
      </widget>
-     <widget class="QPushButton" name="btnConvertARO">
+     <widget class="QPushButton" name="btnConvertAPEIR">
       <property name="geometry">
        <rect>
         <x>260</x>

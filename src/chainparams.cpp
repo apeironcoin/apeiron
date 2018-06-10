@@ -128,7 +128,7 @@ public:
         nMasternodeCountDrift = 20;
 		nMasternodeColleteralLimxDev = 1000;
         nModifierUpdateBlock = 1;
-        nMaxMoneyOut = 10000000 * COIN;
+        nMaxMoneyOut = 30000000 * COIN;
 		
         genesis = CreateGenesisBlock(1528212238, 226026, 0x1e0ffff0, 1, 0 * COIN);
         hashGenesisBlock = genesis.GetHash();

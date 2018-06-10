@@ -1,7 +1,7 @@
 // Copyright (c) 2011-2014 The Bitcoin developers
-// Copyright (c) 2014-2015 The Aro developers
+// Copyright (c) 2014-2015 The Apeiron developers
 // Copyright (c) 2015-2017 The PIVX developers 
-// Copyright (c) 2015-2017 The ARO developers
+// Copyright (c) 2015-2017 The APEIR developers
 // Distributed under the MIT/X11 software license, see the accompanying
 // file COPYING or http://www.opensource.org/licenses/mit-license.php.
 
@@ -20,18 +20,18 @@ BitcoinUnits::BitcoinUnits(QObject* parent) : QAbstractListModel(parent),
 QList<BitcoinUnits::Unit> BitcoinUnits::availableUnits()
 {
     QList<BitcoinUnits::Unit> unitlist;
-    unitlist.append(ARO);
-    unitlist.append(mARO);
-    unitlist.append(uARO);
+    unitlist.append(APEIR);
+    unitlist.append(mAPEIR);
+    unitlist.append(uAPEIR);
     return unitlist;
 }
 
 bool BitcoinUnits::valid(int unit)
 {
     switch (unit) {
-    case ARO:
-    case mARO:
-    case uARO:
+    case APEIR:
+    case mAPEIR:
+    case uAPEIR:
         return true;
     default:
         return false;
@@ -41,11 +41,11 @@ bool BitcoinUnits::valid(int unit)
 QString BitcoinUnits::id(int unit)
 {
     switch (unit) {
-    case ARO:
+    case APEIR:
         return QString("apeiron");
-    case mARO:
+    case mAPEIR:
         return QString("mapeiron");
-    case uARO:
+    case uAPEIR:
         return QString::fromUtf8("uapeiron");
     default:
         return QString("???");
@@ -56,23 +56,23 @@ QString BitcoinUnits::name(int unit)
 {
     if (Params().NetworkID() == CBaseChainParams::MAIN) {
         switch (unit) {
-        case ARO:
-            return QString("ARO");
-        case mARO:
-            return QString("mARO");
-        case uARO:
-            return QString::fromUtf8("μARO");
+        case APEIR:
+            return QString("APEIR");
+        case mAPEIR:
+            return QString("mAPEIR");
+        case uAPEIR:
+            return QString::fromUtf8("μAPEIR");
         default:
             return QString("???");
         }
     } else {
         switch (unit) {
-        case ARO:
-            return QString("tARO");
-        case mARO:
-            return QString("mtARO");
-        case uARO:
-            return QString::fromUtf8("μtARO");
+        case APEIR:
+            return QString("tAPEIR");
+        case mAPEIR:
+            return QString("mtAPEIR");
+        case uAPEIR:
+            return QString::fromUtf8("μtAPEIR");
         default:
             return QString("???");
         }
@@ -83,23 +83,23 @@ QString BitcoinUnits::description(int unit)
 {
     if (Params().NetworkID() == CBaseChainParams::MAIN) {
         switch (unit) {
-        case ARO:
-            return QString("ARO");
-        case mARO:
-            return QString("Milli-ARO (1 / 1" THIN_SP_UTF8 "000)");
-        case uARO:
-            return QString("Micro-ARO (1 / 1" THIN_SP_UTF8 "000" THIN_SP_UTF8 "000)");
+        case APEIR:
+            return QString("APEIR");
+        case mAPEIR:
+            return QString("Milli-APEIR (1 / 1" THIN_SP_UTF8 "000)");
+        case uAPEIR:
+            return QString("Micro-APEIR (1 / 1" THIN_SP_UTF8 "000" THIN_SP_UTF8 "000)");
         default:
             return QString("???");
         }
     } else {
         switch (unit) {
-        case ARO:
-            return QString("TestAROs");
-        case mARO:
-            return QString("Milli-TestARO (1 / 1" THIN_SP_UTF8 "000)");
-        case uARO:
-            return QString("Micro-TestARO (1 / 1" THIN_SP_UTF8 "000" THIN_SP_UTF8 "000)");
+        case APEIR:
+            return QString("TestAPEIRs");
+        case mAPEIR:
+            return QString("Milli-TestAPEIR (1 / 1" THIN_SP_UTF8 "000)");
+        case uAPEIR:
+            return QString("Micro-TestAPEIR (1 / 1" THIN_SP_UTF8 "000" THIN_SP_UTF8 "000)");
         default:
             return QString("???");
         }
@@ -109,11 +109,11 @@ QString BitcoinUnits::description(int unit)
 qint64 BitcoinUnits::factor(int unit)
 {
     switch (unit) {
-    case ARO:
+    case APEIR:
         return 100000000;
-    case mARO:
+    case mAPEIR:
         return 100000;
-    case uARO:
+    case uAPEIR:
         return 100;
     default:
         return 100000000;
@@ -123,11 +123,11 @@ qint64 BitcoinUnits::factor(int unit)
 int BitcoinUnits::decimals(int unit)
 {
     switch (unit) {
-    case ARO:
+    case APEIR:
         return 8;
-    case mARO:
+    case mAPEIR:
         return 5;
-    case uARO:
+    case uAPEIR:
         return 2;
     default:
         return 0;

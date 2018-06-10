@@ -1,8 +1,8 @@
 // Copyright (c) 2009-2010 Satoshi Nakamoto
 // Copyright (c) 2009-2014 The Bitcoin developers
-// Copyright (c) 2014-2015 The Aro developers
+// Copyright (c) 2014-2015 The Apeiron developers
 // Copyright (c) 2015-2017 The PIVX developers 
-// Copyright (c) 2015-2017 The ARO developers
+// Copyright (c) 2015-2017 The APEIR developers
 // Distributed under the MIT software license, see the accompanying
 // file COPYING or http://www.opensource.org/licenses/mit-license.php.
 
@@ -106,7 +106,7 @@ std::string to_internal(const std::string&);
 
 using namespace std;
 
-//ARO only features
+//APEIR only features
 bool fMasterNode = false;
 string strMasterNodePrivKey = "";
 string strMasterNodeAddr = "";
@@ -226,7 +226,7 @@ bool LogAcceptCategory(const char* category)
             const vector<string>& categories = mapMultiArgs["-debug"];
             ptrCategory.reset(new set<string>(categories.begin(), categories.end()));
             // thread_specific_ptr automatically deletes the set when the thread ends.
-            // "apeiron" is a composite category enabling all ARO-related debug output
+            // "apeiron" is a composite category enabling all APEIR-related debug output
             if (ptrCategory->count(string("apeiron"))) {
                 ptrCategory->insert(string("Instantx"));
                 ptrCategory->insert(string("masternode"));
@@ -411,13 +411,13 @@ void PrintExceptionContinue(std::exception* pex, const char* pszThread)
 boost::filesystem::path GetDefaultDataDir()
 {
     namespace fs = boost::filesystem;
-// Windows < Vista: C:\Documents and Settings\Username\Application Data\ARO
-// Windows >= Vista: C:\Users\Username\AppData\Roaming\ARO
-// Mac: ~/Library/Application Support/ARO
+// Windows < Vista: C:\Documents and Settings\Username\Application Data\APEIR
+// Windows >= Vista: C:\Users\Username\AppData\Roaming\APEIR
+// Mac: ~/Library/Application Support/APEIR
 // Unix: ~/.apeiron
 #ifdef WIN32
     // Windows
-    return GetSpecialFolderPath(CSIDL_APPDATA) / "ARO";
+    return GetSpecialFolderPath(CSIDL_APPDATA) / "APEIR";
 #else
     fs::path pathRet;
     char* pszHome = getenv("HOME");
@@ -429,7 +429,7 @@ boost::filesystem::path GetDefaultDataDir()
     // Mac
     pathRet /= "Library/Application Support";
     TryCreateDirectory(pathRet);
-    return pathRet / "ARO";
+    return pathRet / "APEIR";
 #else
     // Unix
     return pathRet / ".apeiron";

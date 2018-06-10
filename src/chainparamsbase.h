@@ -10,7 +10,7 @@
 
 /**
  * CBaseChainParams defines the base parameters (shared between apeiron-cli and apeirond)
- * of a given instance of the ARO system.
+ * of a given instance of the APEIR system.
  */
 class CBaseChainParams
 {

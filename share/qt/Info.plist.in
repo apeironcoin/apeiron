@@ -17,7 +17,7 @@
   <string>APPL</string>
 
   <key>CFBundleGetInfoString</key>
-  <string>@CLIENT_VERSION_MAJOR@.@CLIENT_VERSION_MINOR@.@CLIENT_VERSION_REVISION@, Copyright © 2009-@COPYRIGHT_YEAR@ The Bitcoin Core developers, 2014-@COPYRIGHT_YEAR@ The Aro and PIVX Core Developers, 2017-@COPYRIGHT_YEAR@ The ARO Core developers</string>
+  <string>@CLIENT_VERSION_MAJOR@.@CLIENT_VERSION_MINOR@.@CLIENT_VERSION_REVISION@, Copyright © 2009-@COPYRIGHT_YEAR@ The Bitcoin Core developers, 2014-@COPYRIGHT_YEAR@ The Apeiron and PIVX Core Developers, 2017-@COPYRIGHT_YEAR@ The APEIR Core developers</string>
 
   <key>CFBundleShortVersionString</key>
   <string>@CLIENT_VERSION_MAJOR@.@CLIENT_VERSION_MINOR@.@CLIENT_VERSION_REVISION@</string>
@@ -29,10 +29,10 @@
   <string>????</string>
 
   <key>CFBundleExecutable</key>
-  <string>ARO-Qt</string>
+  <string>APEIR-Qt</string>
 
   <key>CFBundleIdentifier</key>
-  <string>io.apeiron.ARO-Qt</string>
+  <string>io.apeiron.APEIR-Qt</string>
 
   <key>CFBundleURLTypes</key>
   <array>
@@ -40,7 +40,7 @@
       <key>CFBundleTypeRole</key>
       <string>Editor</string>
       <key>CFBundleURLName</key>
-      <string>io.apeiron.AROPayment</string>
+      <string>io.apeiron.APEIRPayment</string>
       <key>CFBundleURLSchemes</key>
       <array>
         <string>apeiron</string>
@@ -54,7 +54,7 @@
       <key>UTTypeIdentifier</key>
       <string>io.apeiron.paymentrequest</string>
       <key>UTTypeDescription</key>
-      <string>ARO payment request</string>
+      <string>APEIR payment request</string>
       <key>UTTypeConformsTo</key>
       <array>
         <string>public.data</string>

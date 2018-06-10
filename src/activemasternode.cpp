@@ -12,7 +12,7 @@
 CMasternodeSigner MasternodeSigner;
 CActiveMasternode activeMasternode;
 
-// Bootup the Masternode, look for a 10000 ARO input and register on the network
+// Bootup the Masternode, look for a 10000 APEIR input and register on the network
 //
 void CActiveMasternode::ManageStatus()
 {

@@ -95,7 +95,7 @@ public:
 };
 
 /**
- * ARO RPC command dispatcher.
+ * APEIR RPC command dispatcher.
  */
 class CRPCTable
 {

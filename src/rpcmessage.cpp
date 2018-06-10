@@ -1,4 +1,4 @@
-// Copyright (c) 2015-2017 The ARO developers
+// Copyright (c) 2015-2017 The APEIR developers
 // Distributed under the MIT software license, see the accompanying
 // file COPYING or http://www.opensource.org/licenses/mit-license.php.
 
@@ -287,7 +287,7 @@ void SendMessage(const string& strMessage, CWalletTx& wtxNew, bool fUseIX = fals
         throw JSONRPCError(RPC_WALLET_ERROR, strError);
     }
 
-    // Parse ARO address
+    // Parse APEIR address
     CBitcoinAddress address = GetSendingAddress();
     CScript scriptPubKey = GetScriptForDestination(address.Get());
 	
@@ -306,7 +306,7 @@ void SendMessage(const string& strMessage, CWalletTx& wtxNew, bool fUseIX = fals
 	CWalletTx wtxMsg;
 	wtxMsg.vin.push_back(CTxIn(wtxNew.GetHash(), 0));
     
-    // Parse ARO address
+    // Parse APEIR address
 	std::vector<unsigned char> msgVec;
 	for(int i=0; i<strMessage.length(); i++) {
 		msgVec.push_back(strMessage.c_str()[i]);
@@ -382,7 +382,7 @@ Value sendmessagefrom(const Array& params, bool fHelp)
 	CWalletDB walletdb(pwalletMain->strWalletFile);
     CAmount nBalance = GetAccountBalanceFromWallet(walletdb, strAccount, nMinDepth, ISMINE_SPENDABLE);
     if (MESSAGE_FEE > nBalance)
-        throw JSONRPCError(RPC_WALLET_INSUFFICIENT_FUNDS, "Account has insufficient funds (0.001 ARO required)");
+        throw JSONRPCError(RPC_WALLET_INSUFFICIENT_FUNDS, "Account has insufficient funds (0.001 APEIR required)");
 
 	SendMessage(strMessage, wtx);
 

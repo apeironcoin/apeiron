@@ -1,28 +1,29 @@
-- Coin Specification
-* Coin Name : APEIRON
-* Coin Ticker : ARO
-* Algorithm : X11
-* Type : PoS + MN
-* Block Time : 60 Seconds
-* Masternode Requirements : 1,000 ARO
-* Maturity : 80 Confirmations
-* Total Supply : 30,000,000 ARO
-* Premine : 100,000
-* Staking Time : 2 hours
+We are announcing Hidden Talk Coin that support hidden message inside of blockchain.
+Our coin have three parts that are wallet, sdk and simple messenger.
 
-- POS + MN Rewards
-* 1 - 300 = 1 ARO Premine
-* 301 - 700 = 5 ARO (POS 5% / MN 95%)
-* 701 - 2,880 = 90 ARO (POS 5% / MN 95%)
-* 2,881 - 10,301 = 30 ARO (POS 5% / MN 95%)
-* 10,302 - 20,302 = 50 ARO (POS 5% / MN 95%)
-* 20,303 - 30,303 = 80 ARO (POS 5% / MN 95%)
-* 30,304 - 40,304 = 140 ARO (POS 5% / MN 95%)
-* 40,305 - 50,305 = 210 ARO (POS 5% / MN 95%)
-* 50,306 - 60,306 = 300 ARO (POS 5% / MN 95%)
-* 60,307 - 70,307 = 370 ARO (POS 5% / MN 95%)
-* 70,308 - 80,308 = 450 ARO (POS 5% / MN 95%)
-* 80,309 - Last Block = 10 ARO (POS 5% / MN 95%)
+- Coin Specification
+* Type : PoW
+* Algorithm : X11
+* Block Time : 60 Seconds
+* Masternode Requirements : 1,000 APEIR
+* Maturity : 120 Confirmations
+* Premine : 1.8%
+
+- PoW Rewards
+* Block 1 : 61000 APEIR (1.8% of 2 Years Supply Coins)
+* Block 2 - 5700 : 10 APEIR (Miner 90% / MN 10%)
+* Block 5701 - 131400 : 6 APEIR (Miner 50% / MN 50%)
+* Block 131401 - 262800 : 4 APEIR (Miner 40% / MN 60%)
+* Block 262801 - 525600 : 3 APEIR (Miner 30% / MN 70%)
+* Block 525601 - 1051200 : 2 APEIR (Miner 20% / MN 80%)
+* Block 1051201 - Infinite : 1 APEIR (Miner 10% / MN 90%)
+
+- Purpose of Premine
+* 1000 APEIR - For advisors.
+* 50% - Dev Team
+* 25% - System fee (We will run messaging and key manage systems.)
+* 20% - Presale MN
+* 5% - Bounty and Marketing
 
 - Ports
 * rpcport : 46124

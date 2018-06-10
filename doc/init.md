@@ -89,7 +89,7 @@ use old versions of Upstart and do not supply the start-stop-daemon uitility.
 Copy apeirond.init to /etc/init.d/apeirond. Test by running "service apeirond start".
 
 Using this script, you can adjust the path and flags to the apeirond program by
-setting the AROD and FLAGS environment variables in the file
+setting the APEIRD and FLAGS environment variables in the file
 /etc/sysconfig/apeirond. You can also use the DAEMONOPTS environment variable here.
 
 5. Auto-respawn

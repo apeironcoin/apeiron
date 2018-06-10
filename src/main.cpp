@@ -1,8 +1,8 @@
 // Copyright (c) 2009-2010 Satoshi Nakamoto
 // Copyright (c) 2009-2014 The Bitcoin developers
-// Copyright (c) 2014-2015 The Aro developers
+// Copyright (c) 2014-2015 The Apeiron developers
 // Copyright (c) 2015-2017 The PIVX developers 
-// Copyright (c) 2015-2017 The ARO developers
+// Copyright (c) 2015-2017 The APEIR developers
 // Distributed under the MIT software license, see the accompanying
 // file COPYING or http://www.opensource.org/licenses/mit-license.php.
 
@@ -44,7 +44,7 @@ using namespace boost;
 using namespace std;
 
 #if defined(NDEBUG)
-#error "ARO cannot be compiled without assertions."
+#error "APEIR cannot be compiled without assertions."
 #endif
 
 /**
@@ -98,7 +98,7 @@ static void CheckBlockIndex();
 /** Constant stuff for coinbase transactions we create: */
 CScript COINBASE_FLAGS;
 
-const string strMessageMagic = "ARO Signed Message:\n";
+const string strMessageMagic = "APEIR Signed Message:\n";
 
 // Internal stuff
 namespace

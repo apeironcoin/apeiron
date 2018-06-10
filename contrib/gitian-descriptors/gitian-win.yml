@@ -22,7 +22,7 @@ packages:
 - "ca-certificates"
 - "python"
 remotes:
-- "url": "https://github.com/AROCRYPTO/ARO.git"
+- "url": "https://github.com/APEIRCRYPTO/APEIR.git"
   "dir": "apeiron"
 files: []
 script: |
